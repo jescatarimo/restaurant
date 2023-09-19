@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-<head> 
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KATOSHO</title>
@@ -9,16 +8,9 @@
   <link rel="stylesheet" href="assets/js/bootstrap.bundle.min.js">
   <link rel="stylesheet" href="assets/css/style.css"> 
   <link rel="stylesheet" href="assets/css/carousel.css">
-
-  <style>
-    .corousel-image-size{
-      height: 109vh;
-    }
-  </style>
 </head>
-
 <body>
-  <!-- NAVBAR START HERE -->
+    <!-- NAVBAR START HERE -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-md-3">
     <div class="container">
       <img src="assets/images/logo.png" class="img-fluid" width="90px" height="80px">
@@ -63,7 +55,14 @@
     </div>
   </nav>
   <!-- NAVBAR END HERE -->
-
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-md-3">
+    <!-- Navbar content -->
+  </nav>
+  
+  <!-- Wrap the content in a boxed container -->
+  <div class="container-boxed">
+    <!-- SLIDER START HERE -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <!-- SLIDER START HERE -->
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -107,12 +106,13 @@
     </button>
   </div>
   <!-- SLIDER END HERE> -->
-
+    </div>
+    
   <div class="row justify-content-sm-around">
     <div class="col-lg-7 col-md-12">
       <img src="assets/images/menu.png" class="img-fluid" alt="Menu">
     </div>
-    <div class="col-lg-4 col-md-12">
+    <div class="col-lg-5 col-md-12">
       <!-- Your content here -->
       <h5>about us</h5>
       <h3>We Always Provide Delicious Food and Quality Service to You!</h3>
@@ -128,98 +128,80 @@
     </div>
   </div>
 
-    <div class="row">
-      <div class="col-lg-4">
-        <img src="assets/images/biryani.png" width="370px">
-      </div>
-      <div class="col-lg-4">
-        <img src="assets/images/chiken.png" width="370px">
-      </div>
-      <div class="col-lg-4">
-        <img src="assets/images/fish.png" width="370px">
-      </div>
+  <!-- Briyani Beyond Boundries -->
+  <div class="row">
+    <div class="col-lg-4 col-md-12">
+      <img src="assets/images/biryani.png" class="img-fluid" alt="Menu">
     </div>
-
-    <div class="row mt-5">
-      <div class="col-lg-5">
-        <img src="assets/images/food.jpg" width="400px">
-      </div>
-      <div class="col-3 text-center">
-        <h3>A unique taste experience in the heart</h3>
-        <p>
-          The TO restaurant offers you its bistronomic Fusion cuisine for lunch and dinner.
-          For dinner, discover all the knowledge of our chef with the tradition of Omakase: a carte blanche menu in 8
-          courses.
-        </p><br>
-        <button class="button bg-success rounded"><a class="text-decoration-none text-white" href="pages/about.html">Learn More</a></button>
-      </div>
-      <div class="col-4 ">
-        <img src="assets/images/friends.webp" width="530px">
-      </div>
+    <div class="col-lg-4 col-md-12">
+      <img src="assets/images/chiken.png" class="img-fluid" alt="Menu">
+    </div>
+    <div class="col-lg-4 col-md-12">
+      <img src="assets/images/fish.png" class="img-fluid" alt="Menu">
     </div>
   </div>
 
+
   <!-- FOOTER -->
+  <div class="row justify-content-sm-around">
   <footer>
-    <div class="footer mt-5">
       <div class="row">
-        <div class="col-3">
-          <img class="log" src="assets/images/logo.png" width="150px" height="140px">
-          <P>
-            Stroll by a beautiful fountain that is surrounded by coconut trees, through our doors, and into our
-            breath-taking outdoor deck overlooking the beach with views of the archipelago islands, put your feet up,
-            and take in the beauty of the African sunset with your favourite gin and tonic in hand.
-          </P>
-          <div class="icon">
-            <img src="assets/icon/facebook.png" width="45px" height="35px">
-            <img src="assets/icon/twiter.png" width="45px" height="35px">
-            <img src="assets/icon/youtube.png" width="45px" height="35px">
-            <img src="assets/icon/instagram.png" width="45px" height="35px">
+          <div class="col-3">
+            <img class="log" src="assets/images/logo.png" width="150px" height="140px">
+            <P>
+              Stroll by a beautiful fountain that is surrounded by coconut trees, through our doors, and into our
+              breath-taking outdoor deck overlooking the beach with views of the archipelago islands, put your feet up,
+              and take in the beauty of the African sunset with your favourite gin and tonic in hand.
+            </P>
+            <div class="icon">
+              <img src="assets/icon/facebook.png" width="45px" height="35px">
+              <img src="assets/icon/twiter.png" width="45px" height="35px">
+              <img src="assets/icon/youtube.png" width="45px" height="35px">
+              <img src="assets/icon/instagram.png" width="45px" height="35px">
+            </div>
+          </div>
+          <div class="col-3 py-5">
+            <h3>Quick links</h3>
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="pages/about.html">About Us</a></li>
+              <li><a href="pages/menu.html">Our Menu</a></li>
+              <li><a href="pages/liqure.html">Liqure</a></li>
+              <li><a href="pages/booking.html">Vennue</a></li>
+              <li><a href="pages/contact.html">Contact Us</a></li>
+  
+            </ol>
+          </div>
+          <div class="col-3 py-5">
+            <ol>
+              <li><a href="#">Party Planning</a></li>
+              <li><a href="#">Gaming Zone</a></li>
+              <li><a href="#">Marriage Party</a></li>
+              <li><a href="#">Conference Room</a></li>
+              <li><a href="#">Tour Consultance</a></li>
+              <li><a href="#">Coctail Party Houses</a></li>
+          </div>
+          <div class="col-3 ">
+            <h3>Contact Us</h3>
+            <p>
+              <img src="assets/icon/phone.png" width="45px" height="35px">
+              +255 656 707 199
+            </p>
+            <p>
+              <img src="assets/icon/email.png" width="45px" height="35px">
+              info@jessyfood.co.tz
+            </p>
+            <p>
+              <img src="assets/icon/location.png" width="45px" height="35px">
+              Dar-es-salaam RD - P.O.Box 6019 Morogoro Msamvu Area
+            </p>
+  
           </div>
         </div>
-        <div class="col-3 mt-5 py-5">
-          <h3>Quick links</h3>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/about.html">About Us</a></li>
-            <li><a href="pages/menu.html">Our Menu</a></li>
-            <li><a href="pages/liqure.html">Liqure</a></li>
-            <li><a href="pages/booking.html">Vennue</a></li>
-            <li><a href="pages/contact.html">Contact Us</a></li>
-
-          </ol>
-        </div>
-
-        <div class="col-3 mt-5 py-5">
-          <ol>
-            <li><a href="#">Party Planning</a></li>
-            <li><a href="#">Gaming Zone</a></li>
-            <li><a href="#">Marriage Party</a></li>
-            <li><a href="#">Conference Room</a></li>
-            <li><a href="#">Tour Consultance</a></li>
-            <li><a href="#">Coctail Party Houses</a></li>
-        </div>
-
-        <div class="col-3 mt-5">
-          <h3>Contact Us</h3>
-          <p>
-            <img src="assets/icon/phone.png" width="45px" height="35px">
-            +255 656 707 199
-          </p>
-          <p>
-            <img src="assets/icon/email.png" width="45px" height="35px">
-            info@jessyfood.co.tz
-          </p>
-          <p>
-            <img src="assets/icon/location.png" width="45px" height="35px">
-            Dar-es-salaam RD - P.O.Box 6019 Morogoro Msamvu Area
-          </p>
-
-        </div>
       </div>
-    </div>
   </footer>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
 
+  
+  <!-- JavaScript scripts go here -->
 </body>
 </html>

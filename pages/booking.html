@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KATOSHO</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/js/bootstrap.bundle.min.js">
+  <link rel="stylesheet" href="../assets/js/bootstrap.bundle.js">
+  <link rel="stylesheet" href="../assets/css/style.css"> 
+  <link rel="stylesheet" href="../assets/css/carousel.css">
+
+  <style>
+    header{
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url('../assets/images/restaurants.jpg');
+}
+  </style>
+</head>
+
+<body>
+  <!-- TRANSPARENT image -->
+<header>
+
+</header>
+
+  <!-- NAVBAR START HERE -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-md-3">
+    <div class="container">
+      <img src="../assets/images/logo.png" width="90px" height="80px">
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-target="#navbarNav"
+        data-bs-taggle="collapse"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-lable="toggle navbar"
+        >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link text-white">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="pages/about.html" class="nav-link text-white">About</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn text-white dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Our Services
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href=".../pages/menu.html">Menu</a></li>
+                  <li><a class="dropdown-item" href="../pages/booking.html">Venue</a></li>
+                  <li><a class="dropdown-item" href="../pages/liqure.html">Liqure</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="../pages/contact.html" class="nav-link text-white">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR END HERE -->
+
+
+<!-- footer -->
+  <footer>
+    <div class="footer mt-5">
+      <div class="row">
+        <div class="col-4">
+          <img class="log" src="../assets/images/logo.png" width="150px" height="140px">
+          <P>
+            Stroll by a beautiful fountain that is surrounded by coconut trees, through our doors, and into our
+            breath-taking outdoor deck overlooking the beach with views of the archipelago islands, put your feet up,
+            and take in the beauty of the African sunset with your favourite gin and tonic in hand.
+          </P>
+          <div class="icon">
+            <img src="../assets/icon/facebook.png" width="45px" height="35px">
+            <img src="../assets/icon/twiter.png" width="45px" height="35px">
+            <img src="../assets/icon/youtube.png" width="45px" height="35px">
+            <img src="../assets/icon/instagram.png" width="45px" height="35px">
+          </div>
+        </div>
+        <div class="col-4 mt-5 py-5">
+          <h3>Quick links</h3>
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About Us</a></li>
+            <li><a href="../pages/service.html">Our Menu</a></li>
+            <li><a href="../pages/menu.html">Our Menu</a></li>
+            <li><a href="../pages/liqure.html">Our Menu</a></li>
+            <li><a href="../pages/booking.html">Our Menu</a></li>
+            <li><a href=".../pages/contact.html">Contact Us</a></li>
+
+          </ol>
+        </div>
+        <div class="col-4 mt-5">
+          <h3>Contact Us</h3>
+          <p>
+            <img src="../assets/icon/phone.png" width="45px" height="35px">
+            +255 656 707 199
+          </p>
+          <p>
+            <img src="../assets/icon/email.png" width="45px" height="35px">
+            info@jessyfood.co.tz
+          </p>
+          <p>
+            <img src="../assets/icon/location.png" width="45px" height="35px">
+            Dar-es-salaam RD - P.O.Box 6019 Morogoro Msamvu Area
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    var nav = document.querySelector('nav');
+
+    window.addEventListerner('scroll', function(){
+      if(window.pageYOffset > 100){
+        nav.classList.add('bg-dark', 'shadow');
+      } else{
+        nav.classList.remove('bg-dark', 'shadow') 
+      }
+    })
+  </script>
+</body>
+</html>
